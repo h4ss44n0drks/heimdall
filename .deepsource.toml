@@ -1,0 +1,24 @@
+version = 1
+
+[[analyzers]]
+name = "javascript"
+
+  [analyzers.meta]
+  plugins = [
+    "angular",
+    "react",
+    "vue",
+    "ember",
+    "meteor",
+    "angularjs"
+  ]
+  environment = [
+    "nodejs",
+    "jquery"
+  ]
+
+[[analyzers]]
+name = "go"
+
+  [analyzers.meta]
+  import_root = "github.com/h4ss44n0drks/heimdall"
